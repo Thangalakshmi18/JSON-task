@@ -1,0 +1,284 @@
+"Questions": [
+            {
+                "column": "11",
+                "row": "13",
+                "dictionary_element": "Date",
+                "document_id": "BXU535425 Rev D_User Needs",
+                "type":"group",
+                "group": [
+                    {
+                        "question": "Extract the document id and revision for product {product_code}.",
+                        "prompt_template": "document_id_and_revision_PRD",
+                        "where_filter": "{\"$and\": [{\"document_id\": {\"$eq\": \"BXU535425 Rev D_User Needs\"}}, {\"type\": {\"$eq\": \"header\"}}]}",
+               
+                    },
+                    {
+                        "question": "Extract the issued date for product {product_code}.",
+                        "prompt_template": "issued_date_PRD",
+                        "where_filter": "{\"$and\": [{\"document_id\": {\"$eq\": \"BXU535425 Rev D_User Needs\"}}, {\"type\": {\"$eq\": \"header-date\"}}]}",
+                    },
+                    {
+                        "question": "Extract the intended purpose section number for product {product_code}.",
+                        "prompt_template": "section_number_PRD"
+                    }
+                ]
+            },
+            {
+                "column": "11",
+                "row": "14",
+                "dictionary_element": "Date",
+                "document_id": "BXU535425 Rev D_User Needs",
+                "type":"group",
+                "group": [
+                    {
+                        "question": "Extract the document id and revision for product {product_code}.",
+                        "prompt_template": "document_id_and_revision_PRD",
+                        "where_filter": "{\"$and\": [{\"document_id\": {\"$eq\": \"BXU535425 Rev D_User Needs\"}}, {\"type\": {\"$eq\": \"header\"}}]}",
+                    },
+                    {
+                        "question": "Extract the issued date for product {product_code}.",
+                        "prompt_template": "issued_date_PRD",
+                        "where_filter": "{\"$and\": [{\"document_id\": {\"$eq\": \"BXU535425 Rev D_User Needs\"}}, {\"type\": {\"$eq\": \"header-date\"}}]}",
+                    },
+                    {
+                        "question": "Extract the Indication for Use section number for product {product_code}.",
+                        "prompt_template": "section_number_PRD"
+                    }
+                ]
+            },
+            {
+                "column": "11",
+                "row": "15",
+                "dictionary_element": "Date",
+                "document_id": "BXU535425 Rev D_User Needs",
+                "type":"group",
+                "group": [
+                    {
+                        "question": "Extract the document id and revision for product {product_code}.",
+                        "prompt_template": "document_id_and_revision_PRD",
+                        "where_filter": "{\"$and\": [{\"document_id\": {\"$eq\": \"BXU535425 Rev D_User Needs\"}}, {\"type\": {\"$eq\": \"header\"}}]}",
+                    },
+                    {
+                        "question": "Extract the issued date for product {product_code}.",
+                        "prompt_template": "issued_date_PRD",
+                        "where_filter": "{\"$and\": [{\"document_id\": {\"$eq\": \"BXU535425 Rev D_User Needs\"}}, {\"type\": {\"$eq\": \"header-date\"}}]}",
+                    },
+                    {
+                        "question": "Extract the Contraindications section number for product {product_code}.",
+                        "prompt_template": "section_number_PRD"
+                    }
+                ]
+            },
+            {
+                "question": "Extract the intended purpose for product {product_code}",
+                "column": "12",
+                "row": "13",
+                "dictionary_element": "Intended Use",
+                "prompt_template": "intended_purpose_PRD",
+                "document_id": "BXU535425 Rev D_User Needs"
+            },
+            {
+                "question": "Extract the Indication for Use for product {product_code}.",
+                "column": "12",
+                "row": "14",
+                "dictionary_element": "Indication for Use",
+                "prompt_template": "indication_for_use_PRD",
+                "document_id": "BXU535425 Rev D_User Needs"
+            },
+            {
+                "question": "Extract the Contraindications for product {product_code}.",
+                "column": "12",
+                "row": "15",
+                "dictionary_element": "Contraindications",
+                "prompt_template": "contraindications_PRD",
+                "document_id": "BXU535425 Rev D_User Needs"
+            },
+            #second document
+            {
+                "column": "13",
+                "row": "13",
+                "dictionary_element": "Date",
+                "document_id": "BXU535427 Rev D_Design Input - Requirements",
+                "type":"group",
+                "group": [
+                    {
+                        "question": "Extract the document id and revision for product {product_code}.",
+                        "prompt_template": "document_id_and_revision_PRD",
+                        "where_filter": "{\"$and\": [{\"document_id\": {\"$eq\": \"BXU535427 Rev D_Design Input - Requirements\"}}, {\"type\": {\"$eq\": \"header\"}}]}",
+               
+                    },
+                    {
+                        "question": "Extract the issued date for product {product_code}.",
+                        "prompt_template": "issued_date_PRD",
+                        "where_filter": "{\"$and\": [{\"document_id\": {\"$eq\": \"BXU535427 Rev D_Design Input - Requirements\"}}, {\"type\": {\"$eq\": \"header-date\"}}]}",
+                    },
+                    {
+                        "question": "Extract the intended purpose section number for product {product_code}.",
+                        "prompt_template": "section_number_PRD"
+                    }
+                ]
+            },
+            {
+                "column": "13",
+                "row": "14",
+                "dictionary_element": "Date",
+                "document_id": "BXU535427 Rev D_Design Input - Requirements",
+                "type":"group",
+                "group": [
+                    {
+                        "question": "Extract the document id and revision for product {product_code}.",
+                        "prompt_template": "document_id_and_revision_PRD",
+                        "where_filter": "{\"$and\": [{\"document_id\": {\"$eq\": \"BXU535427 Rev D_Design Input - Requirements\"}}, {\"type\": {\"$eq\": \"header\"}}]}",
+                    },
+                    {
+                        "question": "Extract the issued date for product {product_code}.",
+                        "prompt_template": "issued_date_PRD",
+                        "where_filter": "{\"$and\": [{\"document_id\": {\"$eq\": \"BXU535427 Rev D_Design Input - Requirements\"}}, {\"type\": {\"$eq\": \"header-date\"}}]}",
+                    },
+                    {
+                        "question": "Extract the Indication for Use section number for product {product_code}.",
+                        "prompt_template": "section_number_PRD"
+                    }
+                ]
+            },
+            {
+                "column": "13",
+                "row": "15",
+                "dictionary_element": "Date",
+                "document_id": "BXU535427 Rev D_Design Input - Requirements",
+                "type":"group",
+                "group": [
+                    {
+                        "question": "Extract the document id and revision for product {product_code}.",
+                        "prompt_template": "document_id_and_revision_PRD",
+                        "where_filter": "{\"$and\": [{\"document_id\": {\"$eq\": \"BXU535427 Rev D_Design Input - Requirements\"}}, {\"type\": {\"$eq\": \"header\"}}]}",
+                    },
+                    {
+                        "question": "Extract the issued date for product {product_code}.",
+                        "prompt_template": "issued_date_PRD",
+                        "where_filter": "{\"$and\": [{\"document_id\": {\"$eq\": \"BXU535427 Rev D_Design Input - Requirements\"}}, {\"type\": {\"$eq\": \"header-date\"}}]}",
+                    },
+                    {
+                        "question": "Extract the Contraindications section number for product {product_code}.",
+                        "prompt_template": "section_number_PRD"
+                    }
+                ]
+            },
+            {
+                "question": "Extract the intended purpose for product {product_code}",
+                "column": "14",
+                "row": "13",
+                "dictionary_element": "Intended Use",
+                "prompt_template": "intended_purpose_PRD",
+                "document_id": "BXU535427 Rev D_Design Input - Requirements"
+            },
+            {
+                "question": "Extract the Indication for Use for product {product_code}.",
+                "column": "14",
+                "row": "14",
+                "dictionary_element": "Indication for Use",
+                "prompt_template": "indication_for_use_PRD",
+                "document_id": "BXU535427 Rev D_Design Input - Requirements"
+            },
+            {
+                "question": "Extract the Contraindications for product {product_code}.",
+                "column": "14",
+                "row": "15",
+                "dictionary_element": "Contraindications",
+                "prompt_template": "contraindications_PRD",
+                "document_id": "BXU535427 Rev D_Design Input - Requirements"
+            },
+            #third document
+            {
+                "column": "15",
+                "row": "13",
+                "dictionary_element": "Date",
+                "document_id": "BXU535428 Rev J_DESIGN INPUTS – LABELLING REQUIREMENTS",
+                "type":"group",
+                "group": [
+                    {
+                        "question": "Extract the document id and revision for product {product_code}.",
+                        "prompt_template": "document_id_and_revision_PRD",
+                        "where_filter": "{\"$and\": [{\"document_id\": {\"$eq\": \"BXU535428 Rev J_DESIGN INPUTS – LABELLING REQUIREMENTS\"}}, {\"type\": {\"$eq\": \"header\"}}]}",
+                    },
+                    {
+                        "question": "Extract the issued date for product {product_code}.",
+                        "prompt_template": "issued_date_PRD",
+                        "where_filter": "{\"$and\": [{\"document_id\": {\"$eq\": \"BXU535428 Rev J_DESIGN INPUTS – LABELLING REQUIREMENTS\"}}, {\"type\": {\"$eq\": \"header-date\"}}]}",
+                    },
+                    {
+                        "question": "Extract the intended purpose section number for product {product_code}.",
+                        "prompt_template": "section_number_PRD"
+                    }
+                ]
+            },
+            {
+                "column": "15",
+                "row": "14",
+                "dictionary_element": "Date",
+                "document_id": "BXU535428 Rev J_DESIGN INPUTS – LABELLING REQUIREMENTS",
+                "type":"group",
+                "group": [
+                    {
+                        "question": "Extract the document id and revision for product {product_code}.",
+                        "prompt_template": "document_id_and_revision_PRD",
+                        "where_filter": "{\"$and\": [{\"document_id\": {\"$eq\": \"BXU535428 Rev J_DESIGN INPUTS – LABELLING REQUIREMENTS\"}}, {\"type\": {\"$eq\": \"header\"}}]}",
+                    },
+                    {
+                        "question": "Extract the issued date for product {product_code}.",
+                        "prompt_template": "issued_date_PRD",
+                        "where_filter": "{\"$and\": [{\"document_id\": {\"$eq\": \"BXU535428 Rev J_DESIGN INPUTS – LABELLING REQUIREMENTS\"}}, {\"type\": {\"$eq\": \"header-date\"}}]}",
+                    },
+                    {
+                        "question": "Extract the Indication for Use section number for product {product_code}.",
+                        "prompt_template": "section_number_PRD"
+                    }
+                ]
+            },
+            {
+                "column": "15",
+                "row": "15",
+                "dictionary_element": "Date",
+                "document_id": "BXU535428 Rev J_DESIGN INPUTS – LABELLING REQUIREMENTS",
+                "type":"group",
+                "group": [
+                    {
+                        "question": "Extract the document id and revision for product {product_code}.",
+                        "prompt_template": "document_id_and_revision_PRD",
+                        "where_filter": "{\"$and\": [{\"document_id\": {\"$eq\": \"BXU535428 Rev J_DESIGN INPUTS – LABELLING REQUIREMENTS\"}}, {\"type\": {\"$eq\": \"header\"}}]}",
+                    },
+                    {
+                        "question": "Extract the issued date for product {product_code}.",
+                        "prompt_template": "issued_date_PRD",
+                        "where_filter": "{\"$and\": [{\"document_id\": {\"$eq\": \"BXU535428 Rev J_DESIGN INPUTS – LABELLING REQUIREMENTS\"}}, {\"type\": {\"$eq\": \"header-date\"}}]}",
+                    },
+                    {
+                        "question": "Extract the Contraindications section number for product {product_code}.",
+                        "prompt_template": "section_number_PRD"
+                    }
+                ]
+            },
+            {
+                "question": "Extract the intended purpose for product {product_code}",
+                "column": "16",
+                "row": "13",
+                "dictionary_element": "Intended Use",
+                "prompt_template": "intended_purpose_PRD",
+                "document_id": "BXU535428 Rev J_DESIGN INPUTS – LABELLING REQUIREMENTS"
+            },
+            {
+                "question": "Extract the Indication for Use for product {product_code}.",
+                "column": "16",
+                "row": "14",
+                "dictionary_element": "Indication for Use",
+                "prompt_template": "indication_for_use_PRD",
+                "document_id": "BXU535428 Rev J_DESIGN INPUTS – LABELLING REQUIREMENTS"
+            },
+            {
+                "question": "Extract the Contraindications for product {product_code}.",
+                "column": "16",
+                "row": "15",
+                "dictionary_element": "Contraindications",
+                "prompt_template": "contraindications_PRD",
+                "document_id": "BXU535428 Rev J_DESIGN INPUTS – LABELLING REQUIREMENTS"
+        ]
