@@ -1,0 +1,67 @@
+-- Table 1: Master Input JSON Table
+CREATE TABLE IF NOT EXISTS "Master_Input_JSON_Table" (
+    ID SERIAL PRIMARY KEY,
+    DocumentID TEXT,
+    Document_Type TEXT,
+    Question TEXT,
+    Prompt_Template TEXT,
+    Where_Filter TEXT,
+    Where_Document TEXT,
+    FullText TEXT,
+    "Type" TEXT,
+    "Column" INTEGER,
+    "Row" INTEGER,
+    GroupID INTEGER,
+    LinkID INTEGER,
+    Dictionary_Element TEXT,
+    Priority INTEGER,
+    SetID INTEGER,
+    "Value" TEXT,
+    ImageSearch BOOLEAN,
+    ImagePath TEXT
+);
+
+-- Table 2: Group Table
+CREATE TABLE IF NOT EXISTS "Group_Table" (
+    GroupID SERIAL PRIMARY KEY,
+    DocumentID TEXT,
+    Document_Type TEXT,
+    Question TEXT,
+    Prompt_Template TEXT,
+    Where_Filter TEXT,
+    Where_Document TEXT,
+    FullText TEXT,
+    "Type" TEXT,
+    "Column" INTEGER,
+    "Row" INTEGER,
+    Dictionary_Element TEXT,
+    Priority INTEGER,
+    SetID INTEGER,
+    "Value" TEXT,
+    ImageSearch BOOLEAN,
+    ImagePath TEXT
+);
+
+-- Table 3: Link Table
+CREATE TABLE IF NOT EXISTS "Link_Table" (
+    ID SERIAL PRIMARY KEY,
+    LinkID INTEGER,
+    DocumentID TEXT,
+    Document_Type TEXT,
+    Question TEXT,
+    Prompt_Template TEXT,
+    Where_Filter TEXT,
+    Where_Document TEXT,
+    FullText TEXT,
+    "Type" TEXT,
+    "Repeatable" BOOLEAN,
+    "Column" INTEGER,
+    "Row" INTEGER,
+    GroupID INTEGER,
+    Dictionary_Element TEXT,
+    Priority INTEGER,
+    SetID INTEGER,
+    "Value" TEXT,
+    ImageSearch BOOLEAN,
+    ImagePath TEXT
+);

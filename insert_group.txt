@@ -1,0 +1,13 @@
+INSERT INTO "Group_Table" (
+    GroupID, DocumentID, Document_Type, Question, Prompt_Template, Where_Filter, Where_Document,
+    FullText, "Type", "Column", "Row", Dictionary_Element, Priority, SetID, "Value", ImageSearch, ImagePath
+) VALUES
+(1, 'IFU', 'Label', NULL, NULL, NULL, NULL, NULL, 'Group', 3, 13, 'intended_Use', 1, 2, '0719004306_IFU, Rev A, 04-DEC-2024', TRUE, NULL),
+(2, 'Pouch', 'Label', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 2, NULL, NULL, NULL, NULL),
+(3, 'Carton', 'Label', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 2, NULL, NULL, NULL, NULL),
+(4, 'BXU601670_MDR_CER', 'CER', NULL, NULL, NULL, NULL, NULL, NULL, 9, NULL, 'Warning', 5, 2, 'There are no warnings applicable to the use of this device.', NULL, NULL),
+(5, 'BXU535425', 'PRD', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 2, NULL, NULL, NULL, NULL),
+(6, 'BXU542284', 'PRD', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
+(7, 'BXU535428', 'PRD', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
+(8, NULL, 'Label', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
+(9, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
